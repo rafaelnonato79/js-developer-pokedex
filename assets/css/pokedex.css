@@ -165,11 +165,26 @@
 }
 
 dialog{
-    background-color: green;
+    border-radius: 2rem;
+    
 }
 
 .pokemonPhoto{
     width: 200px;
     height: 100%;
+    object-fit: cover;
+}
+
+
+.dialogo .pokeCard {
+    /* Estilos de alinhamento */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokebolaImage{
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
